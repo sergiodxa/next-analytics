@@ -1,0 +1,36 @@
+{
+  "name": "next-analytics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sergiodxa/next-analytics.git",
+  "author": "Sergio Xalambrí <sergiodxa@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "nextjs",
+    "react",
+    "analytics",
+    "ga",
+    "google analytics",
+    "fbq",
+    "facebook pixel",
+    "hoc",
+    "high order component"
+  ],
+  "scripts": {
+    "build": "babel src -d dist",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "next-fbq": "^1.0.0",
+    "next-ga": "^1.0.3"
+  },
+  "peerDependencies": {
+    "next": "^6.0.0",
+    "react": "^16.0.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-minify": "^0.4.3"
+  }
+}
