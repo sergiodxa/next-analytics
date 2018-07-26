@@ -1231,9 +1231,9 @@ next-fbq@^1.0.0:
   dependencies:
     react-facebook-pixel "^0.1.1"
 
-next-ga@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/next-ga/-/next-ga-1.0.3.tgz#1659aee3440bf23930c85914ba97a344a88f13ff"
+next-ga@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/next-ga/-/next-ga-2.1.0.tgz#ecd4155137ea374bc45f836a0493270a27e539c6"
   dependencies:
     react-ga "^2.5.3"
 
