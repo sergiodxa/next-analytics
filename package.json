@@ -21,7 +21,7 @@
     "prepublish": "npm run build"
   },
   "dependencies": {
-    "next-fbq": "^1.0.0",
+    "next-fbq": "^2.0.0",
     "next-ga": "^1.0.3"
   },
   "peerDependencies": {
