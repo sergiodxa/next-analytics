@@ -13,6 +13,7 @@ yarn add next-analytics
 Import it inside your `pages/_app.js`;
 
 ```js
+import Router from "next/router";
 import withAnalytics from "next-analytics";
 ```
 
@@ -20,7 +21,7 @@ Wrap your [custom App container](https://nextjs.org/docs#custom-%3Capp%3E) with 
 
 ```js
 // pass an object with your Google Analytics and/or Facebook Pixel code as first argument
-export default withAnalytics({ ga: "UA-xxxxxxxxx-1", fbq: "139xxxxxxxxx3" })(MyApp);
+export default withAnalytics(Router, { ga: "UA-xxxxxxxxx-1", fbq: "139xxxxxxxxx3" })(MyApp);
 ```
 
 That's it, now when the user access a page it will log a pageview to Google Analytics and/or Facebook Pixel, each page change after that will also trigger a pageview on GA and/or FBQ.

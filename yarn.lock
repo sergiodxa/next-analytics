@@ -1225,15 +1225,15 @@ needle@^2.2.0:
     iconv-lite "^0.4.4"
     sax "^1.2.4"
 
-next-fbq@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/next-fbq/-/next-fbq-1.0.0.tgz#e7f9ae6057eb5ecd9c4b74db3ce7da4a845e1b71"
+next-fbq@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/next-fbq/-/next-fbq-2.0.0.tgz#6b3c752b293369a70e35028d8d082bcebcf91e60"
   dependencies:
     react-facebook-pixel "^0.1.1"
 
-next-ga@^1.0.3:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/next-ga/-/next-ga-1.0.3.tgz#1659aee3440bf23930c85914ba97a344a88f13ff"
+next-ga@^2.0.0:
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/next-ga/-/next-ga-2.1.0.tgz#ecd4155137ea374bc45f836a0493270a27e539c6"
   dependencies:
     react-ga "^2.5.3"
 
