@@ -6,7 +6,7 @@ export default (router, { ga, fbq } = {}) => Page => {
 
   // add withGA (passing GA code) to list of HOCs
   if (ga) hocs.push(withGA(ga, router));
-  
+
   // add withFBQ (passing FBQ code) to list of HOCs
   if (fbq) hocs.push(withFBQ(fbq, router));
 
