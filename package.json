@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "next-fbq": "^2.0.0",
-    "next-ga": "^2.0.0"
+    "next-ga": "^2.3.4"
   },
   "peerDependencies": {
     "next": "^6.0.0 || ^7.0.0",
